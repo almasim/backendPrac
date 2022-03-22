@@ -36,6 +36,34 @@ namespace _03._22.Controllers
                 }
             }
         }
+        [HttpGet("{employeeNumber:int}")]
+
+        public JsonResult Getemp(int employeeNumber)
+        {
+            List<Employee> employes = new List<Employee>();
+            using (var context = new schemaContext())
+            {
+                try
+                {
+                    return new JsonResult(context.Employees.Where(x=>x.employeeNumber==employeeNumber).Select(x => new Employee()
+                    {
+                        employeeNumber = x.employeeNumber,
+                        lastName = x.lastName,
+                        firstName = x.firstName,
+                        extension = x.extension,
+                        email = x.email,
+                        officeCode = x.officeCode,
+                        reportsTo = x.reportsTo,
+                        jobTitle = x.jobTitle
+                    }).ToList());
+                }
+                catch (System.Exception ex)
+                {
+
+                    return new JsonResult(ex.Message);
+                }
+            }
+        }
         [HttpPost]
         public JsonResult Post(Employee user) 
         {

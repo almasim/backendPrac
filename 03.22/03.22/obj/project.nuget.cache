@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c/m6KvYH4qEF46hW3b/SGq4FzClMwFEVXO6iywKqL+FmL+Oz8PCu5hnfWxBNNDMJFebAFk5Ez3+WeIymXP8c0Q==",
+  "dgSpecHash": "pDz53QHJ04+CQNKsoB6jQJnxVTm+tpnDtM0jfFBzv1XGWaQvvkOCOuwfIngW9RLx8aSCjp+nmrm2qbJIOHjg9A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tanulo\\almasim\\asp\\03.22\\03.22\\03.22.csproj",
+  "projectFilePath": "C:\\Users\\Tanulo\\Desktop\\backend git\\backendPrac\\03.22\\03.22\\03.22.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tanulo\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\Tanulo\\.nuget\\packages\\google.protobuf\\3.14.0\\google.protobuf.3.14.0.nupkg.sha512",
