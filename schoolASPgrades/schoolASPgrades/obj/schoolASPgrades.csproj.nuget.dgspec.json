@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tanulo\\Desktop\\backend git\\backendPrac\\studentproject\\studentproject\\studentproject.csproj": {}
+    "C:\\Users\\Tanulo\\almasim\\asp\\schoolASPgrades\\schoolASPgrades\\schoolASPgrades.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tanulo\\Desktop\\backend git\\backendPrac\\studentproject\\studentproject\\studentproject.csproj": {
+    "C:\\Users\\Tanulo\\almasim\\asp\\schoolASPgrades\\schoolASPgrades\\schoolASPgrades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tanulo\\Desktop\\backend git\\backendPrac\\studentproject\\studentproject\\studentproject.csproj",
-        "projectName": "studentproject",
-        "projectPath": "C:\\Users\\Tanulo\\Desktop\\backend git\\backendPrac\\studentproject\\studentproject\\studentproject.csproj",
+        "projectUniqueName": "C:\\Users\\Tanulo\\almasim\\asp\\schoolASPgrades\\schoolASPgrades\\schoolASPgrades.csproj",
+        "projectName": "schoolASPgrades",
+        "projectPath": "C:\\Users\\Tanulo\\almasim\\asp\\schoolASPgrades\\schoolASPgrades\\schoolASPgrades.csproj",
         "packagesPath": "C:\\Users\\Tanulo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tanulo\\Desktop\\backend git\\backendPrac\\studentproject\\studentproject\\obj\\",
+        "outputPath": "C:\\Users\\Tanulo\\almasim\\asp\\schoolASPgrades\\schoolASPgrades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
