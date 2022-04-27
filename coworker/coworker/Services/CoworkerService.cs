@@ -25,6 +25,35 @@ namespace coworker.Services
         {
             return context.Coworkers.Include(s => s.Phones).Include(s => s.Notebooks).First(s => s.Email == email);
         }
+        public JsonResult GivePhone(Phone phone)
+        {
+            try
+            {
+                context.Phones.Add(phone);
+                context.SaveChanges();
+                return new JsonResult("Phone felvétele megtörtént.");
+            }
+            catch (Exception ex)
+            {
+                return new JsonResult(ex.Message);
+            }
+
+        }
+        public JsonResult UpdatePhone(Phone phone)
+        {
+            try
+            {
+
+                context.Phones.Update(phone);
+                context.SaveChanges();
+                return new JsonResult("Phone update megtörtént.");
+            }
+            catch (Exception ex)
+            {
+                return new JsonResult(ex.Message);
+            }
+
+        }
 
         //public IEnumerable<Coworker> GetOrderByCostumer(int id, DateTime datetime)
         //{

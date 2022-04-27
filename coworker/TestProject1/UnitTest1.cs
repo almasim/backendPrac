@@ -32,8 +32,17 @@ namespace TestProject1
         {
             Coworker result = service.GetStudentByEmail("jani@jani.hu");
             Phone phone = result.Phones.Where(a => a.Brand == "Samsung").FirstOrDefault();
-            Assert.Equal(3, result.Phones.Count);
+            //Assert.Equal(4, result.Phones.Count);
             Assert.NotNull(phone);
+        }
+        [Fact]
+        public void Test4()
+        {
+            Phone phone = new Phone();
+            phone.Brand = "Hello";
+            phone.Type = "Test";
+            phone.CoworkerId = 1;
+           Assert.Equal( "Phone felvétele megtörtént.", service.GivePhone(phone).Value);
         }
     }
 }

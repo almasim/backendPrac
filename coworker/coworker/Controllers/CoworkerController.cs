@@ -26,5 +26,15 @@ namespace coworker.Controllers
         {
             return coworkerService.GetStudentByEmail(email);
         }
+        [HttpPost("PhoneAdd")]
+        public JsonResult GivePhone(Phone phone)
+        {
+            return coworkerService.GivePhone(phone);
+        }
+        [HttpPut("PhoneUpdate")]
+        public JsonResult UpdatePhone(Phone phone)
+        {
+            return coworkerService.UpdatePhone(phone);
+        }
     }
 }
